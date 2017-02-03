@@ -4,14 +4,17 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "Newtonsoft.Json": "9.0.1",
+    "Unirest-APIMATIC": "1.0.1.26"
+  },
   "frameworks": {
     "netcoreapp1.1": {
       "dependencies": {
         "Microsoft.NETCore.App": {
           "type": "platform",
           "version": "1.1.0"
-        }
+        },
       },
       "imports": "dnxcore50"
     }
